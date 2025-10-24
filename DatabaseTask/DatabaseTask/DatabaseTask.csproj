@@ -18,10 +18,15 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="8.0.0" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\DatabaseTask.Data\DatabaseTask.Data.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Repository\Models\" />
   </ItemGroup>
 
 </Project>
